@@ -1,4 +1,3 @@
-```jsx
 const whatsappUrl = "https://wa.me/966538560036";
 
 const services = [
@@ -10,45 +9,45 @@ const services = [
   },
   {
     number: "02",
-    title: "إعداد التقارير والقوائم المالية",
+    title: "التقارير والقوائم المالية",
     description:
-      "إعداد تقارير وقوائم مالية دورية تساعد الإدارة على متابعة الأداء وفهم النتائج المالية.",
+      "إعداد تقارير مالية دورية والقوائم المالية التي تساعد الإدارة على متابعة الأداء واتخاذ القرارات.",
   },
   {
     number: "03",
-    title: "إعداد ومتابعة الإقرارات الضريبية",
+    title: "ضريبة القيمة المضافة (VAT)",
     description:
-      "تنظيم البيانات وإعداد ومتابعة الإقرارات والمتطلبات الضريبية وفق الأنظمة المعمول بها.",
+      "المساعدة في تنظيم البيانات الضريبية وإعداد ومتابعة متطلبات ضريبة القيمة المضافة وفق الأنظمة المعمول بها.",
   },
   {
     number: "04",
-    title: "إدارة ضريبة القيمة المضافة VAT",
+    title: "الإقرارات الضريبية والزكوية",
     description:
-      "المساعدة في تنظيم البيانات الضريبية وإدارة متطلبات ضريبة القيمة المضافة ومتابعتها.",
+      "تنظيم البيانات والحسابات اللازمة لدعم إعداد ومتابعة الإقرارات الضريبية والزكوية.",
   },
   {
     number: "05",
-    title: "مراجعة وتحليل الحسابات",
+    title: "المحاسب عن بُعد",
     description:
-      "مراجعة حسابات المنشأة وتحديد الأخطاء والملاحظات ونقاط التحسين مع تقديم توصيات عملية.",
+      "احصل على خدمات محاسبية مستمرة دون الحاجة إلى توظيف فريق محاسبي كامل داخل منشأتك.",
   },
   {
     number: "06",
-    title: "المحاسب عن بُعد",
+    title: "المدير المالي عن بُعد – CFO",
     description:
-      "خدمات محاسبية مستمرة دون الحاجة إلى توظيف فريق محاسبي كامل داخل المنشأة.",
+      "خدمة مخصصة لأصحاب المنشآت الذين يحتاجون إلى خبرة مالية وإدارية تساعدهم في التخطيط، تحليل الأداء وإدارة السيولة.",
   },
   {
     number: "07",
-    title: "المدير المالي عن بُعد – CFO",
+    title: "مراجعة وتحليل الحسابات",
     description:
-      "خبرة مالية وإدارية تساعدك في التخطيط وتحليل الأداء وإدارة السيولة ووضع الخطط المالية.",
+      "نراجع حسابات منشأتك ونحدد الأخطاء والملاحظات ونقاط التحسين، مع تقديم توصيات عملية للإدارة.",
   },
   {
     number: "08",
     title: "إعداد الميزانيات والخطط المالية",
     description:
-      "إعداد الميزانيات والخطط المالية ومتابعة المصروفات والإيرادات والتدفقات النقدية.",
+      "متابعة المصروفات والإيرادات والتدفقات النقدية وإعداد الميزانيات التقديرية.",
   },
 ];
 
@@ -109,7 +108,7 @@ export default function Home() {
 
               <div className="leading-tight">
                 <div className="text-lg font-bold tracking-wide text-white">
-                  سند ركان
+                  سند الركن
                 </div>
 
                 <div className="text-[10px] tracking-[0.18em] text-[#d6b477]">
@@ -138,7 +137,7 @@ export default function Home() {
                 href="#about"
                 className="text-sm text-white/80 transition hover:text-[#d6b477]"
               >
-                عن سند ركان
+                عن سند الركن
               </a>
 
               <a
@@ -190,18 +189,18 @@ export default function Home() {
               <span className="h-px w-12 bg-[#d6b477]" />
 
               <span className="text-sm tracking-[0.2em] text-[#d6b477]">
-                للمحاسبة والاستشارات المالية
+                محاسبتك تحت السيطرة… وأرقامك في الصورة.
               </span>
             </div>
 
             <h1 className="max-w-3xl text-5xl font-bold leading-[1.25] text-white sm:text-6xl lg:text-7xl">
               محاسبتك
-              <span className="text-[#d6b477]"> تحت السيطرة… </span>
-              وأرقامك في الصورة.
+              <span className="text-[#d6b477]"> تحت السيطرة </span>
+              وأرقامك في الصورة
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg leading-9 text-white/75">
-              خدمات محاسبية ومالية تساعدك على إدارة أعمالك بثقة.
+              نقدم حلولًا محاسبية ومالية متكاملة للمنشآت الصغيرة والمتوسطة، لتساعد أصحاب الأعمال على معرفة نتائج أعمالهم، تنظيم حساباتهم، ومتابعة الأداء المالي.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -225,7 +224,7 @@ export default function Home() {
 
             <div className="mt-16 flex flex-wrap gap-10 border-t border-white/15 pt-7">
               <div>
-                <div className="text-2xl font-bold text-[#d6b477]">10+</div>
+                <div className="text-2xl font-bold text-[#d6b477]">08+</div>
                 <div className="mt-1 text-sm text-white/55">
                   خدمات مالية ومحاسبية
                 </div>
@@ -240,10 +239,10 @@ export default function Home() {
 
               <div>
                 <div className="text-2xl font-bold text-[#d6b477]">
-                  VAT
+                  VAT & ZATCA
                 </div>
                 <div className="mt-1 text-sm text-white/55">
-                  حلول ومتابعة ضريبية
+                  حلول ضريبية وزكوية
                 </div>
               </div>
             </div>
@@ -273,7 +272,7 @@ export default function Home() {
         <div className="relative mx-auto grid max-w-7xl gap-12 px-6 lg:grid-cols-[1fr_1.5fr] lg:items-center lg:px-10">
           <div>
             <span className="text-sm font-semibold tracking-[0.15em] text-[#d6b477]">
-              سند ركان
+              سند الركن
             </span>
 
             <h2 className="mt-4 text-4xl font-bold leading-tight text-white lg:text-5xl">
@@ -285,15 +284,11 @@ export default function Home() {
 
           <div>
             <p className="text-lg leading-9 text-white/75">
-              في سند ركان نقدم حلولًا محاسبية ومالية متكاملة للمنشآت الصغيرة
-              والمتوسطة في المملكة العربية السعودية، تساعد أصحاب الأعمال على
-              معرفة نتائج أعمالهم، تنظيم حساباتهم، ومتابعة الأداء المالي بشكل
-              مستمر.
+              نحن لا نقدم مجرد تسجيل للقيود والفواتير، بل نساعدك على فهم أرقام منشأتك واتخاذ قرارات مالية أفضل عبر حلول متكاملة للمنشآت في المملكة العربية السعودية.
             </p>
 
             <p className="mt-5 text-lg leading-9 text-white/60">
-              نحن لا نقدم مجرد تسجيل للقيود والفواتير، بل نساعدك على فهم أرقام
-              منشأتك واتخاذ قرارات مالية أفضل.
+              من مسك الحسابات والقوائم المالية، إلى ضريبة القيمة المضافة، الإقرارات الزكوية، وخدمات المدير المحاسبي والمالي عن بُعد.
             </p>
 
             <a
@@ -328,17 +323,16 @@ export default function Home() {
           <div className="flex flex-col justify-between gap-8 md:flex-row md:items-end">
             <div>
               <span className="text-sm font-semibold tracking-[0.15em] text-[#b28a4a]">
-                ماذا نقدم؟
+                خدماتنا
               </span>
 
               <h2 className="mt-4 text-4xl font-bold text-[#102a43] lg:text-5xl">
-                خدمات مالية ومحاسبية متكاملة
+                ماذا نقدم؟
               </h2>
             </div>
 
             <p className="max-w-md leading-8 text-[#526477]">
-              نساعدك على تنظيم حساباتك وفهم أرقام منشأتك ومتابعة أدائها المالي
-              بشكل مستمر.
+              خدمات محاسبية ومالية متكاملة مصممة لتلبية احتياجات منشأتك بدقة.
             </p>
           </div>
 
@@ -385,34 +379,25 @@ export default function Home() {
           <div className="flex items-center px-6 py-20 lg:px-16 lg:py-28">
             <div>
               <span className="text-sm font-semibold tracking-[0.15em] text-[#d6b477]">
-                لماذا سند ركان؟
+                لماذا سند الركن؟
               </span>
 
               <h2 className="mt-5 text-4xl font-bold leading-tight text-white lg:text-5xl">
                 لأنك تحتاج إلى
                 <br />
-                <span className="text-[#d6b477]">أكثر من محاسب</span>
+                أكثر من <span className="text-[#d6b477]">محاسب</span>
               </h2>
 
               <p className="mt-7 text-base leading-9 text-white/65">
-                نعمل معك على تحويل البيانات المالية إلى معلومات تساعدك في إدارة
-                نشاطك. نراجع الأرقام، نوضح نقاط القوة والضعف، ونقدم لك توصيات
-                عملية تساعدك على تحسين الأداء المالي وتقليل الهدر.
-              </p>
-
-              <p className="mt-5 text-base leading-9 text-white/60">
-                نحرص على أن تكون حسابات منشأتك محدثة ومنظمة، مع تقارير دورية
-                تساعدك على معرفة نتائج أعمالك ومتابعة أدائك المالي.
+                نعمل معك على تحويل البيانات المالية إلى معلومات تساعدك في إدارة نشاطك. نراجع الأرقام، نوضح نقاط القوة والضعف، ونقدم لك توصيات عملية تساعدك على تحسين الأداء المالي وتقليل الهدر.
               </p>
 
               <div className="mt-8 space-y-4">
                 {[
-                  "كم حققت من إيرادات؟",
-                  "كم أنفقت؟",
-                  "هل تحقق ربحًا فعليًا؟",
-                  "أين تذهب أموالك؟",
-                  "ما هي أكثر المصروفات تأثيرًا؟",
-                  "كيف يتحسن أداء منشأتك من شهر إلى آخر؟",
+                  "حسابات منشأتك محدثة ومنظمة باستمرار",
+                  "معرفة الإيرادات وحجم المصروفات بدقة",
+                  "تحديد ربحيتك الفعلية وأين تذهب أموالك",
+                  "توصيات عملية لتحسين الأداء واتخاذ القرار",
                 ].map((item) => (
                   <div
                     key={item}
@@ -427,155 +412,6 @@ export default function Home() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= RESTAURANTS ================= */}
-      <section className="relative overflow-hidden bg-[#102a43] py-24 lg:py-32">
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=2000&q=85')",
-          }}
-        />
-
-        <div className="absolute inset-0 bg-[#102a43]/90" />
-
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="grid gap-14 lg:grid-cols-[.8fr_1.2fr]">
-            <div>
-              <span className="text-sm font-semibold tracking-[0.15em] text-[#d6b477]">
-                للمطاعم والكافيهات
-              </span>
-
-              <h2 className="mt-4 text-4xl font-bold leading-tight text-white lg:text-5xl">
-                نعرف تفاصيل
-                <br />
-                <span className="text-[#d6b477]">نشاطك المالي</span>
-              </h2>
-
-              <p className="mt-6 max-w-md leading-8 text-white/60">
-                نعرف أن المطاعم والكافيهات تحتاج إلى متابعة دقيقة للأرقام بسبب
-                تعدد الفروع وكثرة العمليات اليومية.
-              </p>
-
-              <p className="mt-5 max-w-md leading-8 text-white/60">
-                هدفنا أن تعرف ربحية نشاطك الحقيقية، وليس فقط حجم مبيعاتك.
-              </p>
-            </div>
-
-            <div className="grid gap-4 sm:grid-cols-2">
-              {[
-                "مبيعات الفروع",
-                "تكلفة المواد",
-                "تكلفة العمالة",
-                "المصروفات التشغيلية",
-                "الموردين والمشتريات",
-                "النقدية والبنوك",
-                "ربحية كل فرع",
-                "هامش الربح",
-                "نقطة التعادل",
-                "الأداء الشهري",
-              ].map((item, index) => (
-                <div
-                  key={item}
-                  className="group flex min-h-[120px] items-end justify-between rounded-2xl border border-white/10 bg-white/10 p-6 backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:border-[#d6b477]/50 hover:bg-white/15"
-                >
-                  <div>
-                    <span className="text-xs text-[#d6b477]">
-                      {String(index + 1).padStart(2, "0")}
-                    </span>
-
-                    <h3 className="mt-4 text-lg font-bold text-white">
-                      {item}
-                    </h3>
-                  </div>
-
-                  <span className="text-[#d6b477]">
-                    <ArrowIcon />
-                  </span>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ================= HOW WE WORK ================= */}
-      <section className="relative overflow-hidden bg-[#f5f2eb] py-24 lg:py-32">
-        <div
-          className="absolute inset-0 bg-cover bg-center opacity-10"
-          style={{
-            backgroundImage:
-              "url('https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=1800&q=80')",
-          }}
-        />
-
-        <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
-          <div className="max-w-3xl">
-            <span className="text-sm font-semibold tracking-[0.15em] text-[#b28a4a]">
-              كيف نعمل؟
-            </span>
-
-            <h2 className="mt-4 text-4xl font-bold text-[#102a43] lg:text-5xl">
-              خطوات واضحة نحو
-              <br />
-              <span className="text-[#b28a4a]">صورة مالية أفضل</span>
-            </h2>
-          </div>
-
-          <div className="mt-16 grid gap-5 md:grid-cols-2 lg:grid-cols-5">
-            {[
-              {
-                number: "01",
-                title: "جمع البيانات",
-                description:
-                  "نبدأ بفهم نشاطك والبيانات المالية المتوفرة لديك.",
-              },
-              {
-                number: "02",
-                title: "تنظيم الحسابات",
-                description:
-                  "نعمل على تنظيم وتسجيل العمليات المالية بطريقة واضحة ومنهجية.",
-              },
-              {
-                number: "03",
-                title: "إعداد التقارير",
-                description:
-                  "نقدم تقارير مالية دورية توضح نتائج أعمالك.",
-              },
-              {
-                number: "04",
-                title: "التحليل",
-                description:
-                  "لا نكتفي بالأرقام، بل نحلل النتائج ونحدد أهم الملاحظات.",
-              },
-              {
-                number: "05",
-                title: "التوصيات",
-                description:
-                  "نقدم توصيات عملية تساعدك على تحسين الأداء واتخاذ قرارات أفضل.",
-              },
-            ].map((step) => (
-              <div
-                key={step.number}
-                className="rounded-3xl border border-[#ded8cc] bg-white/80 p-7"
-              >
-                <span className="text-sm font-bold text-[#b28a4a]">
-                  {step.number}
-                </span>
-
-                <h3 className="mt-8 text-xl font-bold text-[#102a43]">
-                  {step.title}
-                </h3>
-
-                <p className="mt-4 text-sm leading-7 text-[#718096]">
-                  {step.description}
-                </p>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -599,18 +435,17 @@ export default function Home() {
           <div className="grid gap-14 lg:grid-cols-[.8fr_1.2fr]">
             <div>
               <span className="text-sm font-semibold tracking-[0.15em] text-[#d6b477]">
-                لمن تناسب خدماتنا؟
+                القطاعات
               </span>
 
               <h2 className="mt-4 text-4xl font-bold leading-tight text-white lg:text-5xl">
-                حلول تناسب
+                لمن تناسب
                 <br />
-                <span className="text-[#d6b477]">طبيعة أعمالك</span>
+                <span className="text-[#d6b477]">خدماتنا؟</span>
               </h2>
 
               <p className="mt-6 max-w-md leading-8 text-white/60">
-                خدماتنا مناسبة لمختلف المنشآت والأنشطة، من المشاريع الناشئة إلى
-                الشركات متعددة الفروع.
+                نقدم حلولًا متخصصة تلائم طبيعة الأنشطة المختلفة لمساعدتك على معرفة ربحيتك الحقيقية.
               </p>
             </div>
 
@@ -618,14 +453,14 @@ export default function Home() {
               {sectors.map((sector, index) => (
                 <div
                   key={sector}
-                  className="group flex min-h-[150px] items-end justify-between rounded-2xl border border-white/10 bg-white/10 p-6 backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:border-[#d6b477]/50 hover:bg-white/15"
+                  className="group flex min-h-[140px] items-end justify-between rounded-2xl border border-white/10 bg-white/10 p-6 backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:border-[#d6b477]/50 hover:bg-white/15"
                 >
                   <div>
                     <span className="text-xs text-[#d6b477]">
-                      {String(index + 1).padStart(2, "0")}
+                      0{index + 1}
                     </span>
 
-                    <h3 className="mt-4 text-xl font-bold text-white">
+                    <h3 className="mt-3 text-lg font-bold text-white">
                       {sector}
                     </h3>
                   </div>
@@ -655,19 +490,17 @@ export default function Home() {
         <div className="relative mx-auto max-w-7xl px-6 lg:px-10">
           <div className="max-w-4xl">
             <span className="text-sm font-semibold tracking-[0.15em] text-[#d6b477]">
-              خدمات المدير المالي عن بُعد
+              فريق مالى متكامل بدون تكلفة كاملة
             </span>
 
             <h2 className="mt-5 text-4xl font-bold leading-tight text-white lg:text-6xl">
-              خبرة مالية
+              أنت تدير نشاطك…
               <br />
-              <span className="text-[#d6b477]">عندما تحتاجها</span>
+              <span className="text-[#d6b477]">ونحن نهتم بأرقامك</span>
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-9 text-white/65">
-              خدمة المدير المالي عن بُعد – CFO لأصحاب المنشآت الذين يحتاجون إلى
-              خبرة مالية وإدارية تساعدهم في التخطيط، تحليل الأداء، إدارة
-              السيولة، ووضع الخطط المالية.
+              مع سند الركن يمكنك الحصول على خدمات محاسبية ومالية مستمرة بتكلفة مناسبة، دون تحمل تكلفة توظيف فريق كامل داخل المنشأة.
             </p>
 
             <a
@@ -676,7 +509,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="mt-9 inline-flex items-center gap-3 rounded-full bg-[#d6b477] px-7 py-4 font-semibold text-[#102a43] transition hover:bg-[#e4c78e]"
             >
-              تحدث معنا عن الخدمة
+              تحدث معنا الآن
               <ArrowIcon />
             </a>
           </div>
@@ -701,12 +534,11 @@ export default function Home() {
               </span>
 
               <h2 className="mt-4 max-w-3xl text-4xl font-bold leading-tight text-[#102a43] lg:text-5xl">
-                هل تريد معرفة الوضع المالي الحقيقي لمنشأتك؟
+                أرقام أوضح، قرارات أفضل، ونمو مستدام.
               </h2>
 
               <p className="mt-5 max-w-2xl leading-8 text-[#102a43]/70">
-                تواصل مع سند ركان اليوم للحصول على استشارة أولية ومعرفة الحل
-                المناسب لنشاطك.
+                هل تريد معرفة الوضع المالي الحقيقي لمنشأتك؟ تواصل معنا اليوم للحصول على استشارة أولية.
               </p>
             </div>
 
@@ -735,7 +567,7 @@ export default function Home() {
                 </div>
 
                 <div>
-                  <div className="font-bold">سند ركان</div>
+                  <div className="font-bold">سند الركن</div>
 
                   <div className="text-[10px] tracking-[0.15em] text-[#d6b477]">
                     للمحاسبة والاستشارات المالية
@@ -744,8 +576,7 @@ export default function Home() {
               </div>
 
               <p className="mt-6 max-w-sm text-sm leading-7 text-white/45">
-                خدمات محاسبية ومالية تساعدك على إدارة أعمالك بثقة، مع متابعة
-                مستمرة للأرقام والأداء المالي.
+                حلول محاسبية ومالية تساعد منشأتك على وضوح الأرقام ودعم القرار.
               </p>
             </div>
 
@@ -774,7 +605,7 @@ export default function Home() {
                   className="block transition hover:text-white"
                   href="#about"
                 >
-                  عن سند ركان
+                  عن سند الركن
                 </a>
 
                 <a
@@ -782,13 +613,6 @@ export default function Home() {
                   href="#sectors"
                 >
                   القطاعات
-                </a>
-
-                <a
-                  className="block transition hover:text-white"
-                  href="#contact"
-                >
-                  تواصل معنا
                 </a>
               </div>
             </div>
@@ -809,24 +633,16 @@ export default function Home() {
                   +966 538 5600 36
                 </a>
 
-                <a
-                  href="mailto:mahmoudgooda160@gmail.com"
-                  className="block transition hover:text-white"
-                >
-                  mahmoudgooda160@gmail.com
-                </a>
-
                 <div>المملكة العربية السعودية</div>
               </div>
             </div>
           </div>
 
           <div className="mt-14 border-t border-white/10 pt-6 text-center text-xs text-white/35">
-            © {new Date().getFullYear()} سند ركان — للمحاسبة والاستشارات المالية
+            © {new Date().getFullYear()} سند الركن — للمحاسبة والاستشارات المالية
           </div>
         </div>
       </footer>
     </main>
   );
 }
-```
