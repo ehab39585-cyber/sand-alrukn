@@ -1,4 +1,4 @@
-const whatsappUrl = "https://wa.me/966538560036";
+const whatsappUrl = "https://wa.me/966538560036"; // استبدل الرقم هنا بالرقم الجديد
 
 const services = [
   {
@@ -189,7 +189,7 @@ export default function Home() {
               <span className="h-px w-12 bg-[#d6b477]" />
 
               <span className="text-sm tracking-[0.2em] text-[#d6b477]">
-                محاسبتك تحت السيطرة… وأرقامك  الصورة.
+                محاسبتك تحت السيطرة… وأرقامك في الصورة.
               </span>
             </div>
 
