@@ -1,4 +1,4 @@
-const whatsappUrl = "https://wa.me/966538560036"; // استبدل الرقم هنا بالرقم الجديد
+const whatsappUrl = "https://wa.me/966538560036";
 
 const services = [
   {
@@ -160,6 +160,8 @@ export default function Home() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
+              dir="ltr"
+              style={{ unicodeBidi: "isolate" }}
               className="hidden items-center gap-2 rounded-full border border-[#d6b477]/70 px-5 py-2.5 text-sm text-[#d6b477] transition hover:bg-[#d6b477] hover:text-[#102a43] sm:flex"
             >
               +966 538 5600 36
@@ -200,7 +202,9 @@ export default function Home() {
             </h1>
 
             <p className="mt-7 max-w-2xl text-lg leading-9 text-white/75">
-              نقدم حلولًا محاسبية ومالية متكاملة للمنشآت الصغيرة والمتوسطة، لتساعد أصحاب الأعمال على معرفة نتائج أعمالهم، تنظيم حساباتهم، ومتابعة الأداء المالي.
+              نقدم حلولًا محاسبية ومالية متكاملة للمنشآت الصغيرة والمتوسطة،
+              لتساعد أصحاب الأعمال على معرفة نتائج أعمالهم، تنظيم حساباتهم،
+              ومتابعة الأداء المالي.
             </p>
 
             <div className="mt-10 flex flex-col gap-4 sm:flex-row">
@@ -284,11 +288,14 @@ export default function Home() {
 
           <div>
             <p className="text-lg leading-9 text-white/75">
-              نحن لا نقدم مجرد تسجيل للقيود والفواتير، بل نساعدك على فهم أرقام منشأتك واتخاذ قرارات مالية أفضل عبر حلول متكاملة للمنشآت في المملكة العربية السعودية.
+              نحن لا نقدم مجرد تسجيل للقيود والفواتير، بل نساعدك على فهم أرقام
+              منشأتك واتخاذ قرارات مالية أفضل عبر حلول متكاملة للمنشآت في
+              المملكة العربية السعودية.
             </p>
 
             <p className="mt-5 text-lg leading-9 text-white/60">
-              من مسك الحسابات والقوائم المالية، إلى ضريبة القيمة المضافة، الإقرارات الزكوية، وخدمات المدير المحاسبي والمالي عن بُعد.
+              من مسك الحسابات والقوائم المالية، إلى ضريبة القيمة المضافة،
+              الإقرارات الزكوية، وخدمات المدير المحاسبي والمالي عن بُعد.
             </p>
 
             <a
@@ -389,7 +396,9 @@ export default function Home() {
               </h2>
 
               <p className="mt-7 text-base leading-9 text-white/65">
-                نعمل معك على تحويل البيانات المالية إلى معلومات تساعدك في إدارة نشاطك. نراجع الأرقام، نوضح نقاط القوة والضعف، ونقدم لك توصيات عملية تساعدك على تحسين الأداء المالي وتقليل الهدر.
+                نعمل معك على تحويل البيانات المالية إلى معلومات تساعدك في إدارة
+                نشاطك. نراجع الأرقام، نوضح نقاط القوة والضعف، ونقدم لك توصيات
+                عملية تساعدك على تحسين الأداء المالي وتقليل الهدر.
               </p>
 
               <div className="mt-8 space-y-4">
@@ -445,7 +454,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-6 max-w-md leading-8 text-white/60">
-                نقدم حلولًا متخصصة تلائم طبيعة الأنشطة المختلفة لمساعدتك على معرفة ربحيتك الحقيقية.
+                نقدم حلولًا متخصصة تلائم طبيعة الأنشطة المختلفة لمساعدتك على
+                معرفة ربحيتك الحقيقية.
               </p>
             </div>
 
@@ -500,7 +510,8 @@ export default function Home() {
             </h2>
 
             <p className="mt-7 max-w-2xl text-lg leading-9 text-white/65">
-              مع سند الركن يمكنك الحصول على خدمات محاسبية ومالية مستمرة بتكلفة مناسبة، دون تحمل تكلفة توظيف فريق كامل داخل المنشأة.
+              مع سند الركن يمكنك الحصول على خدمات محاسبية ومالية مستمرة بتكلفة
+              مناسبة، دون تحمل تكلفة توظيف فريق كامل داخل المنشأة.
             </p>
 
             <a
@@ -538,7 +549,8 @@ export default function Home() {
               </h2>
 
               <p className="mt-5 max-w-2xl leading-8 text-[#102a43]/70">
-                هل تريد معرفة الوضع المالي الحقيقي لمنشأتك؟ تواصل معنا اليوم للحصول على استشارة أولية.
+                هل تريد معرفة الوضع المالي الحقيقي لمنشأتك؟ تواصل معنا اليوم
+                للحصول على استشارة أولية.
               </p>
             </div>
 
@@ -546,9 +558,11 @@ export default function Home() {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
+              dir="ltr"
+              style={{ unicodeBidi: "isolate" }}
               className="inline-flex shrink-0 items-center justify-center gap-3 rounded-full bg-[#102a43] px-8 py-4 font-semibold text-white transition hover:bg-[#173b5d]"
             >
-              +966 538 5600 36
+              <span>+966 538 5600 36</span>
               <ArrowIcon />
             </a>
           </div>
@@ -582,9 +596,7 @@ export default function Home() {
 
             {/* Links */}
             <div>
-              <h3 className="font-semibold text-[#d6b477]">
-                روابط سريعة
-              </h3>
+              <h3 className="font-semibold text-[#d6b477]">روابط سريعة</h3>
 
               <div className="mt-5 space-y-3 text-sm text-white/55">
                 <a
@@ -619,15 +631,15 @@ export default function Home() {
 
             {/* Contact */}
             <div>
-              <h3 className="font-semibold text-[#d6b477]">
-                تواصل معنا
-              </h3>
+              <h3 className="font-semibold text-[#d6b477]">تواصل معنا</h3>
 
               <div className="mt-5 space-y-4 text-sm text-white/55">
                 <a
                   href={whatsappUrl}
                   target="_blank"
                   rel="noopener noreferrer"
+                  dir="ltr"
+                  style={{ unicodeBidi: "isolate" }}
                   className="block transition hover:text-white"
                 >
                   +966 538 5600 36
