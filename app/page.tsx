@@ -101,11 +101,7 @@ export default function Home() {
         <div className="mx-auto max-w-7xl px-6 lg:px-10">
           <div className="flex h-24 items-center justify-between border-b border-white/20">
             {/* Logo */}
-            <a href="#home" className="group flex items-center gap-3">
-              <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#d6b477] bg-[#102a43] text-[#d6b477]">
-                <span className="text-xl font-bold">س</span>
-              </div>
-
+            <a href="#home" className="group">
               <div className="leading-tight">
                 <div className="text-lg font-bold tracking-wide text-white">
                   سند الركن
@@ -575,17 +571,11 @@ export default function Home() {
           <div className="grid gap-12 md:grid-cols-3">
             {/* Brand */}
             <div>
-              <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border border-[#d6b477] text-xl font-bold text-[#d6b477]">
-                  س
-                </div>
+              <div>
+                <div className="font-bold">سند الركن</div>
 
-                <div>
-                  <div className="font-bold">سند الركن</div>
-
-                  <div className="text-[10px] tracking-[0.15em] text-[#d6b477]">
-                    للمحاسبة والاستشارات المالية
-                  </div>
+                <div className="text-[10px] tracking-[0.15em] text-[#d6b477]">
+                  للمحاسبة والاستشارات المالية
                 </div>
               </div>
 
