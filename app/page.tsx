@@ -265,17 +265,16 @@ export default function Home() {
 
       {/* ================= HERO ================= */}
       <section
-        id="home"
-        className="relative min-h-[800px] overflow-hidden bg-[#102a43]"
-      >
-        <div
-          className="absolute inset-0 bg-cover bg-center"
-          style={{
-            backgroundImage:
-              "linear-gradient(90deg, rgba(16,42,67,.98) 0%, rgba(16,42,67,.91) 42%, rgba(16,42,67,.38) 100%), url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=2000&q=85')",
-          }}
-        />
-
+  id="home"
+  className="relative min-h-[800px] overflow-hidden bg-[url('/public.jpeg')] bg-cover bg-center"
+>
+  <div
+    className="absolute inset-0 bg-cover bg-center"
+    style={{
+      backgroundImage:
+        "linear-gradient(90deg, rgba(16,42,67,.98) 0%, rgba(16,42,67,.91) 42%, rgba(16,42,67,.38) 100%), url('/public.jpeg')",
+    }}
+  />
         <div className="absolute -right-32 top-40 h-96 w-96 rounded-full bg-[#d6b477]/10 blur-3xl" />
 
         <div className="relative mx-auto flex min-h-[800px] max-w-7xl items-center px-6 pt-32 lg:px-10">
